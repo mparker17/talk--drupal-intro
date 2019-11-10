@@ -1,0 +1,18 @@
+title: Introduction to Drupal with mparker17
+baseurl: "/talk--drupal-intro"
+url: "https://mparker17.github.io"
+markdown: CommonMarkGhPages
+remote_theme: mparker17/jekyll-theme--revealjs@master
+plugins:
+  - jekyll-commonmark-ghpages
+  - jekyll-remote-theme
+  - jekyll-relative-links
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+commonmark:
+  options: ["SMART", "FOOTNOTES"]
+  extensions: ["strikethrough", "autolink", "table", "tagfilter"]
