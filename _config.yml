@@ -16,3 +16,10 @@ defaults:
 commonmark:
   options: ["SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+revealjs:
+  width: 1024
+  height: 768
+  slideNumber: 'c/t'
+  hash: true
+  history: true
+  transition: 'none'
